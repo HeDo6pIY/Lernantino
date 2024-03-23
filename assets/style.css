@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	background-color: rgb(69, 72, 85);
+	height: 100px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: rgb(58, 58, 187);
+}
+
+/* logo */
+
+header .logo-div a {
+	font-weight: 600;
+	color: rgb(69, 72, 85);
+	font-size: 40px;
+	background-color: rgb(20, 182, 182);
+	padding: 5px 10px 5px 50px;
+	margin: 10px 10px 10px 0px;
+}
+
+.logo-div {
+	align-items: center;
+}
+
+/* header nav */
+
+div ul li {
+	list-style: none;
+	display: inline;
+}
+
+div.nav {
+	margin-right: 50px;
+}
+
+.header-nav {
+	color: rgb(20, 182, 182);
+	font-size: 20px;
+	margin: 10px;
+}
+
+.header-nav {
+	position: relative;
+}
+
+/* div cool-subtitle-here */
+
+div img {
+	width: 100%;
+	height: 250px;
+}
+
+div .main {
+	position: relative;
+}
+
+.cool-subtitle-here {
+	position: absolute;
+	background-color: rgb(20, 182, 182);
+	padding: 5px 20px 5px 20px;
+	top: 260px;
+	left: 75%;
+	color: rgb(69, 72, 85);
+}
+
+/* hover navbar */
+
+.header-nav::before {
+	content: '';
+	width: 0%;
+	height: 2px;
+	background-color: rgb(20, 182, 182);
+	position: absolute;
+	transition: 0.2s;
+	bottom: 0;
+	margin: -2px;
+}
+
+.header-nav:hover:before {
+	width: 100%;
+}
+
+/* main */
