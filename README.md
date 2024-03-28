@@ -13,9 +13,9 @@
 			</div>
 			<div class="nav">
 				<ul>
-					<li><a class="header-nav" href="#">About Me</a></li>
-					<li><a class="header-nav" href="#">Work</a></li>
-					<li><a class="header-nav" href="#">Contact ME</a></li>
+					<li><a class="header-nav" href="#about">About Me</a></li>
+					<li><a class="header-nav" href="#work">Work</a></li>
+					<li><a class="header-nav" href="#cont">Contact ME</a></li>
 					<li><a class="header-nav" href="#">Resume</a></li>
 				</ul>
 			</div>
@@ -27,7 +27,7 @@
 	</body>
 	<div class="main-about-me">
 		<div class="about-me">
-			<h1>
+			<h1 id="about">
 				About <br />
 				me
 			</h1>
@@ -58,7 +58,7 @@
 	</div>
 	<div class="main-work">
 		<div class="work">
-			<h1>Work</h1>
+			<h1 id="work">Work</h1>
 			<div class="line-2"></div>
 		</div>
 		<div>
@@ -106,7 +106,7 @@
 				<div class="line3"></div>
 			<div>
 				<div class="contact-nav">
-					<ul class="ul">
+					<ul id="cont" class="ul">
 					<li><a class="contacts" href="#" >555.555.5555</a></li>
 					<li><a class="contacts" href="#" >lernantino@website.com</a></li>
 					<li><a class="contacts" href="#" >GitHub</a></li>
